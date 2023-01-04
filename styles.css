@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Sorts+Mill+Goudy&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+li, a {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #2F3548;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #ffffff;
+}
+
+.logo{
+    cursor:pointer;
+}
+
+button {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #801C24;
+    text-decoration: none;
+}
+
+h4 {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #2F3548;
+    color: #ffffff;
+}
+
+
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:#74A6B3;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #801C24(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s ;
+}
+
+button:hover {
+    background-color: #74A6B3;
+    color:black
+}
+
+
+/* ************************************************** footer */
+#footer {
+	background: #2F3548;
+	color: #2F3548;
+	padding: 2rem;
+	font-size: 2.3rem;
+	margin-top: 3rem;
+}
+
+
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* 
