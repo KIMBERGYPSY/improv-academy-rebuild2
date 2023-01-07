@@ -79,6 +79,35 @@ button:hover {
     color:black
 }
 
+/*=======START OF HIRING PARTNERS=======*/
+/****IMAGES for LOGO****/
+img {
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partners {
+    background: radial-gradient(#ffffff, #c5dce8);
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*======END OF HIRING PARTNERS======*/
 
 /* ************************************************** footer */
 #footer {
