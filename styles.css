@@ -60,7 +60,7 @@ ul, a {
     text-decoration: none;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -72,13 +72,14 @@ header {
 
 
 
+
+
 h2 {
     display:flex;
     justify-content: space-between;
     align-items:center;
     padding: 30px 10px 30px 10px;
-    background-color: #2F3548;
-    color: #ffffff;
+    color: #2f3548;
 }
 
 
