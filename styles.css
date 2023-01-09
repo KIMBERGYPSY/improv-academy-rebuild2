@@ -220,6 +220,30 @@ h4 {
 
 /*======END OF HIRING PARTNERS======*/
 
+/*------------Start of Hands on learning-------------------- */
+   /*this is the container holding the hands on img and text*/
+.hands-on {
+  position: relative;
+  text-align: center;
+  color:#2F3548
+}
+
+/*top left text for hands on sec*/
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 30px;
+}
+
+/*bottom left text for hands on sec*/
+.bottom-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+/*------------End of Hands on learning-------------------- */
+
 
 /* ************************************************** footer */
 
