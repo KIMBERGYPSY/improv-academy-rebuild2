@@ -156,7 +156,7 @@ body {
     position: relative;
 }
 
-button2 {
+.button2 {
     background-color: #ECBC1E;
     color: #2F3548;
     font-family: 'Sorts Mill Goudy', serif;
@@ -174,7 +174,7 @@ button2 {
     
 }
 
-button2:hover {
+.button2:hover {
     background-color: #ffffff;
     color: #801C24;
 }
@@ -183,10 +183,11 @@ button2:hover {
 
 /*=======START OF HIRING PARTNERS=======*/
 /****IMAGES for LOGO****/
-img {
-  width: 120px;
-  height: 70px;
+.hiring-logo {
+  width: 200px;
+  height: 100px;
   padding: 10px;
+
 }
 
 .container {
@@ -247,6 +248,15 @@ h4 {
   clear: both;
 }
 
+#footer-logo {
+  width: 150px;
+  height: 200px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
 
 
 /* ************************************************** Bottom section near footer */
@@ -276,7 +286,8 @@ h4 {
           background:white;
           color: white;
         }
-      }
+
+        
       
       /*
       This div needs to be specified. Else it will make other divs background white.

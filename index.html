@@ -61,20 +61,22 @@
 <!--==========END OF HEADER/NAVBAR/NAVLINKS==========-->
 <section>
 <!--=====START OF HIRING PARTNERS=====-->
+<section>
 <div class="partners">
   <h2>Our Hiring Partners</h2>
   
       <div class="container">
-          <div class="logo"><img src="images/logo1.png"></div>
-          <div class="logo"><img src="images/logo2.png"></div>
-          <div class="logo"><img src="images/logo3.png"></div>
-          <div class="logo"><img src="images/logo4.png"></div>
-          <div class="logo"><img src="images/logo5.png"></div>
-          <div class="logo"><img src="images/logo6.png"></div>
+          <div class="hiring-logo"><img src="images/logo1.png" style="width:100%" style="height:100%"></div>
+          <div class="hiring-logo"><img src="images/logo2.png" style="width:100%" style="height:100%"></div>
+          <div class="hiring-logo"><img src="images/logo3.png" style="width:100%" style="height:100%"></div>
+          <div class="hiring-logo"><img src="images/logo4.png" style="width:100%" style="height:100%"></div>
+          <div class="hiring-logo"><img src="images/logo5.png" style="width:100%" style="height:100%"></div>
+          <div class="hiring-logo"><img src="images/logo6.png" style="width:100%" style="height:100%"></div>
       </div>
     <h2>Job Guaranteed!</h2>
     <h4>Our graduates have secured careers with reputable companies ALL over the globe!</h4>
   </div>
+</section>
   <!--=====END OF HIRING PARTNERS=====-->
 </section>
 <section>
@@ -87,7 +89,151 @@
 </section>
 
       <h3> <div id="footer-logo">
-          <img src="images/footerlogo-cc.png" style="width:100%" style="height: 100%"></div>
+          <img src="images/footerlogo.png" style="width:100%" style="height:100%"></div>
+        
+    
+ <!--staff section -->       
+        **I have to keep the css here for now until I figure out why it does work with in css**
+        <style>
+      html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: grey;
+      }
+      .h4 {
+        color: #2f3548;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #2f3548;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>Meet Our Accredited Staff</h4>
+    <p>
+      You will not be making this career change alone. You will have real humans
+      available to guide you at every step in video calls, email, chat and more.
+    </p>
+    <br />
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=KDO6yy-rASso-b0tI6Euv2um6GxXJ6QoQr0qioETwJE="
+            alt="Jane"
+            style="width: 100%;"
+          />
+          <div class="container">
+            <h4>Steve Jobs</h4>
+            <p class="title">Social media marketing instructor</p>
+            <p>
+              Entrepreneur , industrial designer, and investor. Co-founder,
+              chairman and CEO of Apple. Considered a pioneer of the personal
+              computer revolution.
+            </p>
+            <p>jobss@computercoach.edu</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://media.istockphoto.com/id/1367391512/photo/portrait-of-a-smiling-young-businesswoman.jpg?b=1&s=170667a&w=0&k=20&c=TR2gdu0LZIlM-yp91RbX0LsNJ4duK74ILKn6sjgaZyM="
+            alt="Mike"
+            style="width: 100%;"
+          />
+          <div class="container">
+            <h4>Reshma Saujani</h4>
+            <p class="title">Frontend development instructor</p>
+            <p>
+              Lawyer, politician, civil servant and founder of the nonprofit
+              organization Girls Who Code. 25 years of front end web development
+              experience, in a engineering department.
+            </p>
+            <p>saujanir@computercoach.edu</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aW5kaWFuJTIwZ3V5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="John"
+            style="width: 100%;"
+          />
+          <div class="container">
+            <h4>Stephen Hawkins</h4>
+            <p class="title">IT instructor</p>
+            <p>
+              Discovered the The Big Bang Theory, and black hole radiation as
+              well as the author of the best sellers, A Brief History of Time,
+              and The Grand Design.
+            </p>
+            <p>hawkinss@computercoach.edu</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+        
+        
+        
         <!--social section -->
   <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -108,21 +254,6 @@
       
 
     <!-- footer -->
-    <style>
-        .footer {
-           position: fixed;
-           left: 0;
-           bottom: 0;
-           width: 100%;
-           background-color: #2F3548;
-           color: white;
-           text-align: center;
-        }
-        </style>
-        </head>
-        <body>
-        
-        
         
         <div class="footer ">
           <p>©Copyright 2022. All rights reserved. Computer Coach Training Center.
@@ -140,7 +271,7 @@
         <div class="w3-row-padding">
           <div class="w3-third">
          
-           <h2>Contact</h2>
+           <h3>Contact</h3>
             <p><a href="http://www.computercoach.com/about-computer-coach.htm">About us</a></p>
             <p><a href="">Request information</a></p>
             <p><a href="">Schedule a tour</a></p>
@@ -149,7 +280,7 @@
           </div>
         
           <div class="w3-third">
-            <h2>Courses</h2>
+            <h3>Courses</h3>
             <p><a href="">Certification training courses</a></p> 
             <p><a href="">Career training programs</a></p>
             <p><a href="">Corporate training solutions</a></p>
@@ -159,7 +290,7 @@
           </div>
         
           <div class="w3-third">
-            <h2>Resources</h2>
+            <h3>Resources</h3>
             <p><a href="">License</a></p>
             <p><a href="">Partnerships</a></p>
             <p><a href="">Career resources</a></p>
