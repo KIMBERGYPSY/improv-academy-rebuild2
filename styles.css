@@ -247,6 +247,7 @@ h4 {
   top: 8px;
   left: 16px;
   font-size: 30px;
+  background-color: red;
 }
 
 /*bottom left text for hands on sec*/
@@ -563,14 +564,16 @@ box-sizing: inherit;
 
 
 /* ************************************************** Bottom section near footer */
-      h3 {
+      .footer-box {
         background-color: #2F3548;
         color: #ffffff;
         text-align: center;
       }
+
+      
         
         .fa-linkedin {
-          background: #ffffff;
+          
           color: white;
         }
         .fa {
@@ -587,7 +590,7 @@ box-sizing: inherit;
         }
         
         .fa-facebook {
-          background:white;
+          
           color: white;
         }
 
