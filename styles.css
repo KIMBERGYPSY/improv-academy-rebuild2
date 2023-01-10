@@ -5,20 +5,46 @@
     box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px 0px 20px 0px;
+}
+
 
 .logo1 {
-    cursor:pointer;
-    flex-direction: right;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  cursor:pointer;
+}
+
+#header-number {
+  display: flex;
+  justify-content: flex-end; 
+  padding: 0px 0px 0px 200px;
+}
+
+p {
+  color: #2F3548;
+}
+
+#header-button {
+  display: flex;
+  justify-content:flex-end;
+  padding: 0px 0px 0px 0px 
 }
 
 button1 {
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
     background-color: #801C24;
     text-decoration: none;
-    padding: 12px 30px;
+    padding: 12px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -30,56 +56,39 @@ button1:hover {
     color:#2F3548;
 }
 
-p {
-    font-size: 30px;
-    color: #2F3548;
-}
+
+   
 /* ************************************************* navbar below */
-body {
+navbar {
     font-family: 'Sorts Mill Goudy', serif;
-    line-height: 1.6;
-    margin: 0;
-    min-height: 100vh;
-}
- h2 {margin: 0;
-    padding: 0;
     list-style: none;
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 100px 10px 100px 10px;
+    color: #2f3548;
 }
-
+ 
 ul {
+    display: flex;
+    justify-content:flex-end;
     margin: 0;
-    padding: 0;
+    padding: 10px 25px;
     list-style: none;
+    height: 100px
 }
 
-ul, a {
+ul, a, i{
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: 400;
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
-}
-
-.header {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 20px 100px 10px 20px;
-    background-color: #ffffff;
 }
 
-
-
-
-
-
-
-h2 {
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 30px 10px 30px 10px;
-    color: #2f3548;
+.nav_links i{
+  padding: 0 400px 0 0px
 }
 
 
@@ -102,6 +111,14 @@ h2 {
 
 .nav_links li a:hover {
     color:#74A6B3;
+}
+
+.nav_links li i {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li i:hover {
+  color:#74A6B3;
 }
 
 
@@ -161,8 +178,6 @@ button2:hover {
     background-color: #ffffff;
     color: #801C24;
 }
-
-
 /*=======END OF Header & Hero section=======*/
 
 
@@ -204,6 +219,30 @@ h4 {
 }
 
 /*======END OF HIRING PARTNERS======*/
+
+/*------------Start of Hands on learning-------------------- */
+   /*this is the container holding the hands on img and text*/
+.hands-on {
+  position: relative;
+  text-align: center;
+  color:#2F3548
+}
+
+/*top left text for hands on sec*/
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 30px;
+}
+
+/*bottom left text for hands on sec*/
+.bottom-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+/*------------End of Hands on learning-------------------- */
 
 
 /* ************************************************** footer */
@@ -279,6 +318,7 @@ h4 {
       div {
         background-color: white;
       }*/
+      
       
       
       
