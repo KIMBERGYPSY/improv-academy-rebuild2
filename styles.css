@@ -264,6 +264,7 @@ h4 {
   background-color: #801C24;
   padding-top: 5px;
   color: white;
+  height: 250px;
 }
 
 .grow-text {
@@ -271,14 +272,15 @@ h4 {
 }
 
 .button4 {
-  width: 200px;
-  height: 40px;
+  width: 280px;
+  height: 70px;
   border-radius: 5px;
   margin-bottom: 30px;
   color:#2F3548;
-  font-style: bold;
   border: 0px;
   background-color: #EBBB1A;
+  font-weight:600;
+  font-size: larger;
 }
 
 .button4:hover {
