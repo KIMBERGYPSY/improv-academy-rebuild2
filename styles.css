@@ -35,7 +35,12 @@ html {
   padding: 0px 0px 0px 0px;
   width: 100%;
   color: #2F3548;
-  font-size: 50px;
+  font-size: 70px;
+  
+}
+
+.phone-number {
+  
 }
 
 
@@ -63,6 +68,11 @@ html {
 .button1:hover {
     background-color: #74A6B3;
     color:#2F3548;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
 }
 
 
@@ -270,10 +280,12 @@ h4 {
   padding-top: 5px;
   color: white;
   height: 250px;
+  
 }
 
 .grow-text {
   color: white;
+  padding: 5px, 0px, 5px, 0px;
 }
 
 .button4 {
