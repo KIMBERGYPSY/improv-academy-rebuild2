@@ -20,28 +20,26 @@ html {
   margin-left: 25px;
   margin-right: 25px;
 }
-
+ 
 
 .logo1 {
   display: flex;
-  justify-content: center;
-  width: 80%;
+  justify-content: flex-start;
+  width: 50%;
   cursor:pointer;
+  padding: 0px 0 0 0;
 }
 
 #header-number {
-  display: flex;
-  justify-content: flex-end; 
-  padding: 0px 0px 0px 200px;
+  display: inline;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  color: #2F3548;
+  font-size: 50px;
 }
 
-p {
-  color: #2F3548;
-}
 
 #header-button {
-  display:inline;
-  justify-content:flex-end;
   padding: 0px 0px 0px 0px;
   width: 500px;
 }
@@ -53,7 +51,7 @@ p {
     color: #ffffff;
     background-color: #801C24;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 20px 40px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -99,7 +97,7 @@ ul, a, i{
 }
 
 .nav_links i{
-  padding: 0 400px 0 0px
+  padding: 0 500px 0 0px
 }
 
 
@@ -237,8 +235,9 @@ h4 {
    /*this is the container holding the hands on img and text*/
 .hands-on {
   position: relative;
-  text-align: center;
-  color:#2F3548
+  text-align: left;
+  color:#2F3548;
+
 }
 
 /*top left text for hands on sec*/
@@ -247,14 +246,20 @@ h4 {
   top: 8px;
   left: 16px;
   font-size: 30px;
-  background-color: red;
+  width: 40%;
+  background-color: #ffffff;
 }
 
 /*bottom left text for hands on sec*/
 .bottom-left {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 750px;
+  left: 0px;
+  bottom: 0px;
+  width:100%;
+  height: 200px;
+  background-color: #ECBC1E;
+  font-size: 50px;
 }
 /*------------End of Hands on learning-------------------- */
 
