@@ -40,7 +40,9 @@ html {
 }
 
 .phone-number {
-  
+  font-size: 40px;
+  font-style: bold;
+  align-items: center;
 }
 
 
@@ -247,29 +249,32 @@ h4 {
   position: relative;
   text-align: left;
   color:#2F3548;
-
 }
+
 
 /*top left text for hands on sec*/
 .top-left {
   position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 30px;
-  width: 40%;
-  background-color: #ffffff;
+  top: 200px;
+  left:60px;
+  width: 40%; 
+  font-size: 120px;
+  text-align: center;
 }
+
 
 /*bottom left text for hands on sec*/
 .bottom-left {
   position: absolute;
-  top: 750px;
+  top: 550px;
   left: 0px;
   bottom: 0px;
-  width:100%;
+  width:80%;
   height: 200px;
-  background-color: #ECBC1E;
-  font-size: 50px;
+  font-size: 60px;
+  padding-left: 25px;
+  padding-top: 45px; 
+  background-image: linear-gradient(to right, rgba(235,187,26,1), rgba(235,187,26,0));
 }
 /*------------End of Hands on learning-------------------- */
 
