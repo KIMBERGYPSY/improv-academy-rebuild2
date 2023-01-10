@@ -139,7 +139,7 @@ body {
     position: relative;
 }
 
-.button2 {
+button2 {
     background-color: #ECBC1E;
     color: #2F3548;
     font-family: 'Sorts Mill Goudy', serif;
@@ -157,7 +157,7 @@ body {
     
 }
 
-.button2:hover {
+button2:hover {
     background-color: #ffffff;
     color: #801C24;
 }
