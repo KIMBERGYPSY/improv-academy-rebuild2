@@ -230,7 +230,7 @@ button2:hover {
 .hiring-head {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  text-align: center; 
   font-size: 70px;
   align-items: center;
   font-weight: 500;
@@ -242,7 +242,7 @@ button2:hover {
 .hiring-info {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: 2rem;
   font-style: bold;
   font-family: 'roboto';
@@ -392,8 +392,15 @@ button2:hover {
   cant add background stuff because it pushes "sean" off
 }*/
 
+.alumni-h2{
+font-family: 'Sorts Mill Goudy', serif;
+font-size: 30px;
+color: #2F3548;
+text-align: center;
+}
+
 .alumni-cards {
-  text-align: center;
+  text-align: left;
   
 }
   
@@ -486,15 +493,22 @@ button2:hover {
 
 .syllabus {
   background-color: #2F3548;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 350px 20px 20px 20px;
+  
 }
 
 .syll-text {
- background-color: #2F3548;
- text-align: center;
  color: white;
- 
+}
+
+.syll-tex1 {
+  text-align: center;
+  padding: 200px 150px 10px 0;
+  font-size: 40px;
+}
+.syll-text2 {
+  text-align: center;
+  font-size: 20px;
 }
 
 ul {
