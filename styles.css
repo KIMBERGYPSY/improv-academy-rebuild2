@@ -365,6 +365,7 @@ h4 {
   background-color: #EBBB1A;
   font-weight:600;
   font-size: larger;
+  
 }
 
 .button4:hover {
@@ -406,7 +407,7 @@ h4 {
     height: 80%;
     margin: 10px;
     background-color: white;
-    height: 540px;
+    /*height: 540px;*/
     
 }
   
@@ -453,7 +454,7 @@ h4 {
 /*box container for image*/
   .box {
     width: 100%;
-    height: 100%;
+    
     display:block;
     align-items:flex-start;
     justify-content: center;
@@ -461,8 +462,9 @@ h4 {
    
   }
 /*Text info for all cards*/
-  .text {
+  .alum-text {
     overflow-wrap: break-word;
+    text-align: left;
 }
 
   .alum-img {
@@ -472,24 +474,17 @@ h4 {
 
 
 /****** START OF SYLLABUS SECTION *******/
-#courses {
-  width: 100%;
-  
-  background-color: #2F3548;
-  padding: 5px 5px 25px 5px;
-  
-}
 
 .syllabus {
   background-color: #2F3548;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .syll-text {
  background-color: #2F3548;
  text-align: center;
  color: white;
- overflow-wrap: break-word;
- 
  
 }
 
@@ -537,20 +532,18 @@ img {
   overflow: clip;
 }*/
 
-a {
-  text-decoration: none;
-  color: aliceblue;
-  background-color: transparent;
 
-}
 
-a:hover {
+.syll-link:hover {
   color:#EBBB1A;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .syll-link {
   text-align: center;
+  padding-top: 40px;
+  color: white;
+  font-family: 'roboto', sans-serif;
 }
 /* this makes it responsive */
 @media screen and (max-width: 650px) {
