@@ -355,13 +355,20 @@ button2:hover {
   padding-top: 5px;
   color: white;
   height: 250px;
-  padding:30px 0 0 0;
-  
+  padding:10px 20px 10px 20px;
+  font-family: 'Sorts Mill Goudy', serif;  
 }
 
-.grow-text {
+.grow-text1 {
+  font-family: 'Sorts Mill Goudy', serif; 
+  font-size: 35px;
+}
+
+.grow-text2 {
   color: white;
   padding: 5px, 0px, 5px, 0px;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
 }
 
 .button4 {
@@ -374,6 +381,7 @@ button2:hover {
   background-color: #EBBB1A;
   font-weight:600;
   font-size: larger;
+  font-family: 'Sorts Mill Goudy', serif;
   
 }
 
@@ -499,16 +507,19 @@ text-align: center;
 
 .syll-text {
  color: white;
+ 
 }
 
 .syll-tex1 {
   text-align: center;
-  padding: 200px 150px 10px 0;
+  padding: 200px 10px 10px 0;
   font-size: 40px;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 .syll-text2 {
   text-align: center;
   font-size: 20px;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 ul {
@@ -530,6 +541,7 @@ ul.syll-list {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
+  font-family: roboto, sans-serif;
 }
 
 ul.syll-list li {
@@ -590,6 +602,20 @@ box-sizing: border-box;
 *:after {
 box-sizing: inherit;
 }*/
+
+.staff-heading1{
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #2F3548;
+  font-size: 35px;
+}
+
+.staff-heading2{
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #2F3548;
+  font-size: 20px;
+}
 
 .staff-column {
   float: left;
@@ -697,6 +723,8 @@ box-sizing: inherit;
           
           color: white;
         }
+
+  
 
         @media screen and (max-width: 650px) {
           .staff-column {
