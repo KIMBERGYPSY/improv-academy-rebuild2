@@ -243,6 +243,43 @@ h4 {
 
 /*======END OF HIRING PARTNERS======*/
 
+/*------------Start of Career section-------------------- */
+/*this is the container holding the career img and text*/
+.career {
+  position: relative;
+  text-align: right;
+  color:#2F3548;
+}
+
+/*top right text for career sec*/
+.top-right {
+  position: absolute;
+  top: 0px;
+  right:0;
+  width: 50%; 
+  font-size: 90px;
+  text-align: center;
+  padding: 75px 35px 0 0;
+
+}
+
+/*bottom right text for career sec*/
+.bottom-right {
+  position: absolute;
+  right: 0px;
+  bottom: 80px;
+  width:80%;
+  height: 200px;
+  font-size: 50px;
+  text-align: end;
+  padding-right: 25px;
+  padding-top: 45px; 
+  background-image: linear-gradient(to right, rgba(235,187,26,0), rgba(235,187,26,1));
+}
+
+
+/*------------End of Career section-------------------- */
+
 /*------------Start of Hands on learning-------------------- */
    /*this is the container holding the hands on img and text*/
 .hands-on {
@@ -255,7 +292,7 @@ h4 {
 /*top left text for hands on sec*/
 .top-left {
   position: absolute;
-  top: 200px;
+  top: 100px;
   left:60px;
   width: 40%; 
   font-size: 120px;
@@ -266,7 +303,7 @@ h4 {
 /*bottom left text for hands on sec*/
 .bottom-left {
   position: absolute;
-  top: 550px;
+  top: 650px;
   left: 0px;
   bottom: 0px;
   width:80%;
