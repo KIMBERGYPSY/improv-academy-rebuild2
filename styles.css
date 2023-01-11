@@ -230,16 +230,13 @@ button2:hover {
 .hiring-head {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   align-items: center; 
   font-size: 70px;
-=======
   align-items: center;
   font-weight: 500;
   font-size: 3rem;
   font-family: 'Sorts Mill Goudy', serif;
   color:#2f3548;
->>>>>>> 90e03225797e2cea8d90a04dae43b08fe3229e88
 }
 
 .hiring-info {
