@@ -227,18 +227,26 @@ button2:hover {
   padding-bottom: 60px;
 }
 
-h2 {
+.hiring-head {
   display: flex;
   justify-content: center;
+  align-items: center; 
+  font-size: 70px;
   align-items: center;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: 'Sorts Mill Goudy', serif;
+  color:#2f3548;
 }
 
-h4 {
+.hiring-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 2rem;
   font-style: bold;
+  font-family: 'roboto';
+  color:#2f3548;
 }
 
 /*======END OF HIRING PARTNERS======*/
@@ -279,6 +287,31 @@ h4 {
 
 
 /*------------End of Career section-------------------- */
+
+/*------------Start of Flexible career-------------------- */
+
+.flexible{
+  background-color: #2F3548;
+  color: #ffffff;
+  text-align: center;
+  height: 250px;
+  padding: 0px 40px 20px 40px;
+}
+
+.flexible-1{
+  font-size: 50px;
+}
+
+.flexible-2{
+  font-size: 30px;
+}
+
+.flexible-3{
+  font-size: 35px;
+}
+
+
+/*------------End of Flexible career-------------------- */
 
 /*------------Start of Hands on learning-------------------- */
    /*this is the container holding the hands on img and text*/
@@ -322,6 +355,7 @@ h4 {
   padding-top: 5px;
   color: white;
   height: 250px;
+  padding:30px 0 0 0;
   
 }
 
