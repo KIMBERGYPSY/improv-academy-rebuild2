@@ -1,12 +1,10 @@
 Project Title: Website Redesign of https://computercoach.com/
 
-Description: WE have been charged with creating a beautiful new website for a tech academy called Computer Coach. Using Version Control + Advanced CSS  | Academy Website Analysis + Development. 
+Description: We have been charged with creating a beautiful new website for a tech academy called Computer Coach. Using Version Control + Advanced CSS  | Academy Website Analysis + Development. We built this project to help give users who will visit Computer Coach's website a more interactive experience. We wanted them to get a feel of a tech company, so they can get an idea of what type of work they can expect to do. We also wanted users to find information easier and simpler. That way they do not have to go through to many steps. Which could cause the user to get frustrated and then have them leave the site. So that potential students can see who they might encounter while taking part in the program, we added a meet the team section. To showcase that graduating is possible, we decided to implement an alumni section.
 
-Notes --> why did you build this project?” and “what problem(s) does it solve?”. It also helps to include your motivations for the project and what you learned from it.
-Features: If your project has multiple features, list them here. Don’t be afraid to brag if your project has unique features that make it stand out. You can even add screenshots and gifs to show off the features.
+How to use: Once you open the website, there will be a navigation bar where you can click to view the different course options available. You can find Computer's Coach phone number to call them or if you would prefer to have someone reach out via email you can click the request info button. You scroll down a little bit you can find the apply now bottom. Scroll a little and then you can find Computer coaches partnerships. Scroll down and underneath  the hiring partners, you will find an image that talks slightly about the schedules that are offered at Computer Coach. 
 
-Notes -->How to use: Here, you should write step-by-step instructions on how to install and use your project. Any software or package requirements should also be listed here.
-Technologies: List all the technologies and/or frameworks you used and their purpose in your project.
+Technologies: Figma, VS code, Netlify, Github and Code sandbox were used to create our website
 
 
 ***.......
