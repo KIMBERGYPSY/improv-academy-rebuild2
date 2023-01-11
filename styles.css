@@ -227,19 +227,29 @@ button2:hover {
   padding-bottom: 60px;
 }
 
-h2 {
+.hiring-head {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   align-items: center; 
   font-size: 70px;
+=======
+  align-items: center;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: 'Sorts Mill Goudy', serif;
+  color:#2f3548;
+>>>>>>> 90e03225797e2cea8d90a04dae43b08fe3229e88
 }
 
-h4 {
+.hiring-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 2rem;
   font-style: bold;
+  font-family: 'roboto';
+  color:#2f3548;
 }
 
 /*======END OF HIRING PARTNERS======*/
