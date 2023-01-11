@@ -280,6 +280,31 @@ h4 {
 
 /*------------End of Career section-------------------- */
 
+/*------------Start of Flexible career-------------------- */
+
+.flexible{
+  background-color: #2F3548;
+  color: #ffffff;
+  text-align: center;
+  height: 250px;
+  padding: 0px 40px 20px 40px;
+}
+
+.flexible-1{
+  font-size: 50px;
+}
+
+.flexible-2{
+  font-size: 30px;
+}
+
+.flexible-3{
+  font-size: 35px;
+}
+
+
+/*------------End of Flexible career-------------------- */
+
 /*------------Start of Hands on learning-------------------- */
    /*this is the container holding the hands on img and text*/
 .hands-on {
